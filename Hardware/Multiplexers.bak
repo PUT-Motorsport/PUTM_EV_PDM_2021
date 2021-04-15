@@ -1,0 +1,401 @@
+EESchema Schematic File Version 4
+LIBS:PDM-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74HC4051 U38
+U 1 1 6000805C
+P 3900 3750
+F 0 "U38" H 3950 4431 50  0000 C CNN
+F 1 "74HC4051" H 3950 4340 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 3900 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 3900 3350 50  0001 C CNN
+	1    3900 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4350 3900 4450
+Wire Wire Line
+	4000 4550 4200 4550
+Wire Wire Line
+	4200 4550 4200 4500
+Wire Wire Line
+	3600 4050 3500 4050
+Wire Wire Line
+	3500 4050 3500 4100
+$Comp
+L power:GND #PWR0161
+U 1 1 60009C92
+P 3500 4100
+F 0 "#PWR0161" H 3500 3850 50  0001 C CNN
+F 1 "GND" H 3505 3927 50  0000 C CNN
+F 2 "" H 3500 4100 50  0001 C CNN
+F 3 "" H 3500 4100 50  0001 C CNN
+	1    3500 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0164
+U 1 1 6000A285
+P 3900 4450
+F 0 "#PWR0164" H 3900 4200 50  0001 C CNN
+F 1 "GND" H 3905 4277 50  0000 C CNN
+F 2 "" H 3900 4450 50  0001 C CNN
+F 3 "" H 3900 4450 50  0001 C CNN
+	1    3900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0155
+U 1 1 6000A3A0
+P 3900 2750
+F 0 "#PWR0155" H 3900 2600 50  0001 C CNN
+F 1 "+3.3V" H 3915 2923 50  0000 C CNN
+F 2 "" H 3900 2750 50  0001 C CNN
+F 3 "" H 3900 2750 50  0001 C CNN
+	1    3900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0167
+U 1 1 6000AA93
+P 4200 4500
+F 0 "#PWR0167" H 4200 4350 50  0001 C CNN
+F 1 "+3.3V" H 4215 4673 50  0000 C CNN
+F 2 "" H 4200 4500 50  0001 C CNN
+F 3 "" H 4200 4500 50  0001 C CNN
+	1    4200 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4350 4000 4550
+Wire Wire Line
+	3600 3650 3450 3650
+Wire Wire Line
+	3600 3750 3450 3750
+Wire Wire Line
+	3600 3850 3450 3850
+Text GLabel 3450 3650 0    50   Input ~ 0
+ADC_s0
+Text GLabel 3450 3750 0    50   Input ~ 0
+ADC_s1
+Text GLabel 3450 3850 0    50   Input ~ 0
+ADC_s2
+Text GLabel 3600 3450 0    50   Input ~ 0
+ADC0
+$Comp
+L 74xx:74HC4051 U39
+U 1 1 60012D3E
+P 5700 3750
+F 0 "U39" H 5750 4431 50  0000 C CNN
+F 1 "74HC4051" H 5750 4340 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 5700 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 5700 3350 50  0001 C CNN
+	1    5700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4350 5700 4450
+Wire Wire Line
+	5800 4550 6000 4550
+Wire Wire Line
+	6000 4550 6000 4500
+Wire Wire Line
+	5400 4050 5300 4050
+Wire Wire Line
+	5300 4050 5300 4100
+$Comp
+L power:GND #PWR0162
+U 1 1 60012D4A
+P 5300 4100
+F 0 "#PWR0162" H 5300 3850 50  0001 C CNN
+F 1 "GND" H 5305 3927 50  0000 C CNN
+F 2 "" H 5300 4100 50  0001 C CNN
+F 3 "" H 5300 4100 50  0001 C CNN
+	1    5300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0165
+U 1 1 60012D50
+P 5700 4450
+F 0 "#PWR0165" H 5700 4200 50  0001 C CNN
+F 1 "GND" H 5705 4277 50  0000 C CNN
+F 2 "" H 5700 4450 50  0001 C CNN
+F 3 "" H 5700 4450 50  0001 C CNN
+	1    5700 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0156
+U 1 1 60012D56
+P 5700 2750
+F 0 "#PWR0156" H 5700 2600 50  0001 C CNN
+F 1 "+3.3V" H 5715 2923 50  0000 C CNN
+F 2 "" H 5700 2750 50  0001 C CNN
+F 3 "" H 5700 2750 50  0001 C CNN
+	1    5700 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0168
+U 1 1 60012D5C
+P 6000 4500
+F 0 "#PWR0168" H 6000 4350 50  0001 C CNN
+F 1 "+3.3V" H 6015 4673 50  0000 C CNN
+F 2 "" H 6000 4500 50  0001 C CNN
+F 3 "" H 6000 4500 50  0001 C CNN
+	1    6000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4350 5800 4550
+Wire Wire Line
+	5400 3650 5250 3650
+Wire Wire Line
+	5400 3750 5250 3750
+Wire Wire Line
+	5400 3850 5250 3850
+Text GLabel 5250 3650 0    50   Input ~ 0
+ADC_s3
+Text GLabel 5250 3750 0    50   Input ~ 0
+ADC_s4
+Text GLabel 5250 3850 0    50   Input ~ 0
+ADC_s5
+Text GLabel 5400 3450 0    50   Input ~ 0
+ADC1
+$Comp
+L 74xx:74HC4051 U40
+U 1 1 60015F61
+P 7550 3750
+F 0 "U40" H 7600 4431 50  0000 C CNN
+F 1 "74HC4051" H 7600 4340 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7550 3350 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf" H 7550 3350 50  0001 C CNN
+	1    7550 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 4350 7550 4450
+Wire Wire Line
+	7650 4550 7850 4550
+Wire Wire Line
+	7850 4550 7850 4500
+Wire Wire Line
+	7250 4050 7150 4050
+Wire Wire Line
+	7150 4050 7150 4100
+$Comp
+L power:GND #PWR0163
+U 1 1 60015F6D
+P 7150 4100
+F 0 "#PWR0163" H 7150 3850 50  0001 C CNN
+F 1 "GND" H 7155 3927 50  0000 C CNN
+F 2 "" H 7150 4100 50  0001 C CNN
+F 3 "" H 7150 4100 50  0001 C CNN
+	1    7150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0166
+U 1 1 60015F73
+P 7550 4450
+F 0 "#PWR0166" H 7550 4200 50  0001 C CNN
+F 1 "GND" H 7555 4277 50  0000 C CNN
+F 2 "" H 7550 4450 50  0001 C CNN
+F 3 "" H 7550 4450 50  0001 C CNN
+	1    7550 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0157
+U 1 1 60015F79
+P 7550 2750
+F 0 "#PWR0157" H 7550 2600 50  0001 C CNN
+F 1 "+3.3V" H 7565 2923 50  0000 C CNN
+F 2 "" H 7550 2750 50  0001 C CNN
+F 3 "" H 7550 2750 50  0001 C CNN
+	1    7550 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0169
+U 1 1 60015F7F
+P 7850 4500
+F 0 "#PWR0169" H 7850 4350 50  0001 C CNN
+F 1 "+3.3V" H 7865 4673 50  0000 C CNN
+F 2 "" H 7850 4500 50  0001 C CNN
+F 3 "" H 7850 4500 50  0001 C CNN
+	1    7850 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4350 7650 4550
+Wire Wire Line
+	7250 3650 7100 3650
+Wire Wire Line
+	7250 3750 7100 3750
+Wire Wire Line
+	7250 3850 7100 3850
+Text GLabel 7100 3650 0    50   Input ~ 0
+ADC_s6
+Text GLabel 7100 3750 0    50   Input ~ 0
+ADC_s7
+Text GLabel 7100 3850 0    50   Input ~ 0
+ADC_s8
+Text GLabel 7250 3450 0    50   Input ~ 0
+ADC2
+Text GLabel 4300 3450 2    50   Input ~ 0
+Curent1
+Text GLabel 4300 3650 2    50   Input ~ 0
+Curent3
+Text GLabel 4300 3750 2    50   Input ~ 0
+Curent4
+Text GLabel 4300 3850 2    50   Input ~ 0
+Curent5
+Text GLabel 4300 3950 2    50   Input ~ 0
+Curent6
+Text GLabel 4300 4050 2    50   Input ~ 0
+Curent7
+Text GLabel 4300 4150 2    50   Input ~ 0
+Curent8
+Text GLabel 6100 3450 2    50   Input ~ 0
+Curent9
+Text GLabel 6100 3550 2    50   Input ~ 0
+Curent10
+Text GLabel 6100 3650 2    50   Input ~ 0
+Curent11
+Text GLabel 6100 3750 2    50   Input ~ 0
+Curent12
+Text GLabel 6100 3850 2    50   Input ~ 0
+Curent13
+Text GLabel 6100 3950 2    50   Input ~ 0
+Curent21
+Text GLabel 6100 4050 2    50   Input ~ 0
+Curent22
+Text GLabel 6100 4150 2    50   Input ~ 0
+Curent23
+Text GLabel 7950 3450 2    50   Input ~ 0
+Curent24
+Text GLabel 4300 3550 2    50   Input ~ 0
+Curent2
+Text GLabel 7950 3550 2    50   Input ~ 0
+Curent25
+Text GLabel 7950 3650 2    50   Input ~ 0
+Curent26
+Text GLabel 7950 3750 2    50   Input ~ 0
+Temp1
+Text GLabel 7950 3850 2    50   Input ~ 0
+Temp2
+Text GLabel 7950 3950 2    50   Input ~ 0
+Temp3
+Text GLabel 7950 4050 2    50   Input ~ 0
+Temp4
+Text GLabel 7950 4150 2    50   Input ~ 0
+SupplyVoltage
+$Comp
+L Device:C_Small C38
+U 1 1 600306D9
+P 7300 2950
+F 0 "C38" H 7392 2996 50  0000 L CNN
+F 1 "100n" H 7392 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7300 2950 50  0001 C CNN
+F 3 "~" H 7300 2950 50  0001 C CNN
+	1    7300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2750 3900 2850
+Wire Wire Line
+	3900 2850 3650 2850
+Connection ~ 3900 2850
+Wire Wire Line
+	3900 2850 3900 3250
+Connection ~ 5700 2850
+Wire Wire Line
+	5700 2850 5700 2750
+Wire Wire Line
+	5450 2850 5700 2850
+Wire Wire Line
+	7300 2850 7550 2850
+Connection ~ 7550 2850
+Wire Wire Line
+	7550 2850 7550 2750
+Wire Wire Line
+	7550 2850 7550 3250
+Wire Wire Line
+	5700 2850 5700 3250
+Wire Wire Line
+	3650 3050 3650 3100
+Wire Wire Line
+	5450 3050 5450 3100
+Wire Wire Line
+	7300 3050 7300 3100
+$Comp
+L power:GND #PWR0160
+U 1 1 60034813
+P 7300 3100
+F 0 "#PWR0160" H 7300 2850 50  0001 C CNN
+F 1 "GND" H 7305 2927 50  0000 C CNN
+F 2 "" H 7300 3100 50  0001 C CNN
+F 3 "" H 7300 3100 50  0001 C CNN
+	1    7300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0159
+U 1 1 60034D4D
+P 5450 3100
+F 0 "#PWR0159" H 5450 2850 50  0001 C CNN
+F 1 "GND" H 5455 2927 50  0000 C CNN
+F 2 "" H 5450 3100 50  0001 C CNN
+F 3 "" H 5450 3100 50  0001 C CNN
+	1    5450 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0158
+U 1 1 60035474
+P 3650 3100
+F 0 "#PWR0158" H 3650 2850 50  0001 C CNN
+F 1 "GND" H 3655 2927 50  0000 C CNN
+F 2 "" H 3650 3100 50  0001 C CNN
+F 3 "" H 3650 3100 50  0001 C CNN
+	1    3650 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C37
+U 1 1 600678ED
+P 5450 2950
+F 0 "C37" H 5542 2996 50  0000 L CNN
+F 1 "100n" H 5542 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5450 2950 50  0001 C CNN
+F 3 "~" H 5450 2950 50  0001 C CNN
+	1    5450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C36
+U 1 1 600680A6
+P 3650 2950
+F 0 "C36" H 3742 2996 50  0000 L CNN
+F 1 "100n" H 3742 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3650 2950 50  0001 C CNN
+F 3 "~" H 3650 2950 50  0001 C CNN
+	1    3650 2950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
