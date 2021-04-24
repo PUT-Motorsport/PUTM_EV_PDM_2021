@@ -1,4 +1,4 @@
--9207433305211969481
+-9207431685948738327
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44085,6 +44085,13 @@ single digit 7 segemnt red/green LED
 0
 10
 10
+FCI39pin
+39pinFCI_ECU
+
+
+0
+41
+41
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters

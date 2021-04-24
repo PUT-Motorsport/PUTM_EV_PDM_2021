@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name FCI39pin)(type KiCad)(uri ${KIPRJMOD}/FCI39pin.pretty)(options "")(descr ""))
+)
